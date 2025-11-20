@@ -1,8 +1,8 @@
 # 🧠 AI-Resume-Extractor
 This notebook is a hands-on lab designed to explore and experiment with LangChain, a powerful framework for building applications powered by Large Language Models (LLMs). It walks through core LangChain concepts, practical workflows, and real examples of chaining, prompting, document processing, and model integration.
 # 🎥 Video Preview
+[UI](https://github.com/user-attachments/assets/63ecd507-4ecb-4c73-9951-f99c5073c1eb)
 
-https://github.com/user-attachments/assets/63ecd507-4ecb-4c73-9951-f99c5073c1eb
 This notebook demonstrates how to build an AI-powered Resume Parser using:
 
 ⚡ HuggingFace Transformers
