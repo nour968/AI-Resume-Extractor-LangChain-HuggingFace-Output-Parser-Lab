@@ -1,4 +1,4 @@
-# AI-Resume-Extractor-LangChain-HuggingFace-Output-Parser-Lab
+# AI-Resume-Extractor
 This notebook is a hands-on lab designed to explore and experiment with LangChain, a powerful framework for building applications powered by Large Language Models (LLMs). It walks through core LangChain concepts, practical workflows, and real examples of chaining, prompting, document processing, and model integration.
 This notebook demonstrates how to build an AI-powered Resume Parser using:
 
@@ -30,7 +30,7 @@ It allows you to feed any PDF CV/resume, and the system automatically extracts k
 
 All wrapped in a clean, schema-enforced JSON structure.
 
-🚀 Features
+# 🚀 Features
 
 Local LLM inference using HuggingFace
 
@@ -44,7 +44,7 @@ Extracts the most important CV fields with high accuracy
 
 Fully reproducible inside a single notebook
 
-📂 Notebook Workflow
+# 📂 Notebook Workflow
 1️⃣ Install & Import Dependencies
 
 The notebook installs:
@@ -63,7 +63,7 @@ Uses HuggingFace AutoModelForCausalLM with FP16 + device map auto.
 
 4️⃣ Define the Resume Schema
 
-Using LangChain’s:
+# Using LangChain’s:
 
 StructuredOutputParser
 ResponseSchema
@@ -81,7 +81,7 @@ CV_extraction_template
 
 LLM output is cleaned, parsed, and printed.
 
-📦 Requirements
+# 📦 Requirements
 langchain
 langchain-community
 langchain-core
@@ -93,7 +93,7 @@ torch
 
 A GPU is recommended for fast inference.
 
-▶️ How to Use
+# ▶️ How to Use
 
 Open the notebook
 
@@ -103,7 +103,7 @@ Run all cells
 
 Get your structured CV JSON output instantly
 
-🔮 Future Enhancements
+# 🔮 Future Enhancements
 
 Support for DOCX parsing
 
